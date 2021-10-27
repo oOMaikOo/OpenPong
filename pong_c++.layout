@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="client.cpp" open="1" top="0" tabpos="7">
+		<Cursor position="2375" topLine="75" />
+	</File>
+	<File name="client.hpp" open="1" top="0" tabpos="8">
+		<Cursor position="1128" topLine="0" />
+	</File>
+	<File name="framework.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="3064" topLine="86" />
+	</File>
+	<File name="framework.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1405" topLine="28" />
+	</File>
+	<File name="game.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="1627" topLine="51" />
+	</File>
+	<File name="game.hpp" open="1" top="0" tabpos="4">
+		<Cursor position="1331" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="12">
+		<Cursor position="1052" topLine="0" />
+	</File>
+	<File name="menu.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="2738" topLine="0" />
+	</File>
+	<File name="menu.hpp" open="1" top="0" tabpos="2">
+		<Cursor position="1726" topLine="32" />
+	</File>
+	<File name="player.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="851" topLine="378" />
+	</File>
+	<File name="player.hpp" open="1" top="0" tabpos="10">
+		<Cursor position="3459" topLine="28" />
+	</File>
+	<File name="server.cpp" open="1" top="0" tabpos="5">
+		<Cursor position="2452" topLine="84" />
+	</File>
+	<File name="server.hpp" open="1" top="0" tabpos="6">
+		<Cursor position="1165" topLine="0" />
+	</File>
+	<File name="singleton.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="1312" topLine="10" />
+	</File>
+	<File name="sound.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1088" topLine="6" />
+	</File>
+	<File name="sound.hpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="sprite.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2061" topLine="30" />
+	</File>
+	<File name="sprite.hpp" open="0" top="0" tabpos="4">
+		<Cursor position="1393" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

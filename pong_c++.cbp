@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pong_c++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/openpong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="`sdl-config --libs`" />
+					<Add library="../../../../../../../usr/lib/libSDL_ttf.so" />
+					<Add library="../../../../../../../usr/lib/libSDL_mixer.so" />
+					<Add library="../../../../../../../usr/lib/libSDL_net.so" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/openpong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="../../../../../../../usr/lib/libSDL_net.so" />
+					<Add library="../../../../../../../usr/lib/libSDL_ttf.so" />
+					<Add library="../../../../../../../usr/lib/libSDL_mixer.so" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add library="../../../../../../../usr/lib/libSDL_mixer.so" />
+			<Add library="../../../../../../../usr/lib/libSDL_net.so" />
+			<Add library="../../../../../../../usr/lib/libSDL_ttf.so" />
+		</Linker>
+		<Unit filename="client.cpp" />
+		<Unit filename="client.hpp" />
+		<Unit filename="framework.cpp" />
+		<Unit filename="framework.hpp" />
+		<Unit filename="game.cpp" />
+		<Unit filename="game.hpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu.cpp" />
+		<Unit filename="menu.hpp" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.hpp" />
+		<Unit filename="server.cpp" />
+		<Unit filename="server.hpp" />
+		<Unit filename="singleton.hpp" />
+		<Unit filename="sound.cpp" />
+		<Unit filename="sound.hpp" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
